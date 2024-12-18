@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 
     // Création de widgets
     GtkWidget *img= maFenetre->bgImg.Image;
-
+//
     GtkWidget *label = gtk_label_new(NULL);
     gtk_label_set_markup(GTK_LABEL(label), "<span font='40'><b>Bienvenue dans GTK !</b></span>");
     GtkWidget *button = gtk_button_new_with_label("Cliquez-moi");
